@@ -23,7 +23,7 @@ module.exports = defineConfig({
 
     // Vídeo desligado por padrão (deixa a execução local mais rápida).
     // Ligue quando quiser gerar material para o blog.
-    video: false,
+    video: true,
 
     setupNodeEvents(on, config) {
       // Aqui registramos plugins e eventos de Node (tasks, relatórios, etc.).
